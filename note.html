@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="keyword" content="HTML, SSB, Sunshuvo, Md. Tarikul Islam, HTML Basic, HTML elements, Bangladesh, Web Design">
+		<meta name="author" content="Md. Tarikul Islam (SUNSHUVO)">
+		<meta name="description" content="I wrire this code as practicies as well as making the class note. If you have any queries about this code and notes please let me know. Also inform me if something you found wrong here.">
+		<title>Notes on Class-7</title>
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+		<base href="" target="_blank">
+	<head/>
+
+	<body>
+		<header class="header">
+			<ul>
+				<li class="menu_item"><a href="index.html" target="_self">Home</a></li>
+				<li class="menu_item current"><a href="note.html" target="_self">Class Note</a></li>
+				<li class="menu_item"><a href="practices.html" target="_self">Practices</a></li>
+				<li class="menu_item"><a href="about.html" target="_self">About Me</a></li>
+				<li class="menu_item"><a href="contact.html" target="_self">Contact Me</a></li>
+			</ul>
+		</header>
+		
+		<div class="wrapper">
+
+			<main class="main_body">
+				<h2>Following topic covers in Class-7</h2>
+				<ol>
+					<li>CSS Layout: Layout is desined by HTML and CSS. We will use Float for now. Grid and Flex will learn during bootstrap.</li>
+						
+					<li>Create a header division: assign class and apply properties background color to view and must have to give <span>heigth</span> or content to show on page. <span>Width</span> 100% will automatically take as block level element. <span>Width</span> only applicable if want to minimize the width<br>
+						<span>Height</span> versus <span>min-height</span>: 
+						<ul>
+							<li>if height not set, it automatically take as content required
+							<li>If heigth set lower than content required space then background will show only as setted heigh even if content require more. Use of height is not profesional.
+							<li>minimum-height will always show a background as minimum height set but atomatically increase as content required. If we want to height then minimum-height is best... mostly avaoid any height
+							<li>maximum-height will allow only upto a setted height
+						</ul>
+					</li>
+					<li>Wrappe concept: used when two div want to place same line. also known as container. We have to assign main and side division under wrapper division.</li>
+					<li>Assign <span>background-color</span> in both side and main to understand.</li>
+					<li>Assign <span>width</span> to body 70% and side as 25%. we have to some space form 100%. Becauseit will make some problem during taking space... after complete we can fill the gap by resizing <span>width</span>.</li>
+					<li>Both division will show as <span>width</span> assign. Now we have apply float to both as <span>float:left</span> for main and <span>float:right</span> for side_box to set them in same line.</li>
+					<li>Now a problem will arise, that next content will go in that 5% gap. So we have to use any of those option
+						<ul>
+						<li><span>overflow</span>: hidden in immidiate paranet class. Best option, becasue it will use full area of this division. and clear option will only restict next element go up.
+						<li><span>clear</span>:both/left/right kit can be used in immidiate nex div to not use that gap.
+							<ul>
+								<li>clear: left will slove only left side
+								<li>clear: right will slove only right side
+								<li>clear: both will slove only both side
+							</ul>
+						</ul>
+					</li>
+					<li>For more than two content in same line we have to use float:left in all content.</li>
+					<li><span>&#60;b&#62;</span>(only bold) and <span>&#60;strong&#62;</span>(blod and importance) looks similar but there are some differene in bowser and SEO.</li>
+					<li><span>&#60;i&#62;</span> and <span>&#60;em&#62;</span> also same.</li>
+					<li>iframe: (inline element) used to show external wesite element or full external website on a page. It's depends on external website permission. Youtube has permission to use youtube go to share and copy embed code.</li>
+					<li>Google map integration: Go to Google map > mark a place > Share place > Embed amp > Copy iframe code > Paste in your html.</li>
+				</ol>
+			</main>
+			
+			<aside class="side">
+				<p> This is side coentent, create using wrapper concept</p>
+			</aside>
+		</div>
+		
+		<footer class="footer">
+			<p>I wrire this code as practicies as well as making the class note. If you have any queries about this code and notes please let me know. Also inform me if something you found wrong here.
+		</footer>
+	<body/>
+</html>

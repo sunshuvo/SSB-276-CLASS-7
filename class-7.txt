@@ -1,0 +1,36 @@
+
+1. CSS Layout: Layout is desined by HTML and CSS
+	Using Float for now. Grid and Flex will learn during bootstrap
+	
+2. Create a header division.
+	assign class and apply properties background color to view and must have to give heigth or content to show on page.
+	width 100% will automatically take as block level element. Width only applicable if want to minimize the width
+	height versus min-height: 
+		1. if height not set, it automatically take as content required
+		2. If heigth set lower than content required space then background will show only as setted heigh even if content require more. Use of height is not profesional.
+		3. minimum-height will always show a background as minimum height set but atomatically increase as content required. If we want to height then minimum-height is best... mostly avaoid any height
+		4. maximum-height will allow only upto a setted height
+
+3. Wrappe concept: 	used when two div want to place same line. also known as container. We have to assign main and side division under wrapper division
+4. Assign background color in both side and main to understand
+5. Assign width to body 70% and side as 25%. we have to some space form 100%. Becauseit will make some problem during taking space... after complete we can fill the gap by resizing width.
+6. Both division will show as width assign. Now we have apply float to both as float:left for main and float:right for side_box to set them in same line
+7. Now a problem will arise, that next content will go in that 5% gap. So we have to use any of those option
+	1. overflow: hidden in immidiate paranet class. Best option, becasue it will use full area of this division. and clear option will only restict next element go up.
+	2. clear:both/left/right kit can be used in immidiate nex div to not use that gap.
+		i. clear: left will slove only left side
+		ii. clear: right will slove only right side
+		iii. clear: both will slove only both side
+8. For more than two content in same line we have to use float:left in all content
+9. <b>(only bold) and <strong>(blod and importance) looks similar but there are some differene in bowser and SEO. 
+10. <i> and <em> also same.
+11. iframe: (inline element) used to show external wesite element or full external website on a page. It's depends on external website permission. Youtube has permission to use youtube go to share and copy embed code.
+12. Google map integration: Go to Google map > mark a place > Share place > Embed amp > Copy iframe code > Paste in your html.
+
+
+
+
+
+HW: HTML home to 
+
+
