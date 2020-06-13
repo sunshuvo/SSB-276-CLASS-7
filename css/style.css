@@ -12,6 +12,9 @@ span{
 .header{
 	background-color:black;
 	margin: 0px;
+	width: 100%;
+	top: 0px;
+	position:fixed;
 }
 
 .header ul{
@@ -51,7 +54,7 @@ span{
 .wrapper{
 	margin: 20px 0px 80px 0px;
 	overflow:hidden;
-	
+	margin-top: 100px;
 }
 
 .main_body{
