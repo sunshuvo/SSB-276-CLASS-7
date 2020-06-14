@@ -1,10 +1,10 @@
 
 body{
 	margin:0px;
-	background-color:#ADAFAD;
+	background-color:#909090;
 }
 span{
-	color: #1EB703;
+	color: #278727;
 	font-style: italic;
 	font-weight: bold;
 }
@@ -83,5 +83,5 @@ span{
 
 .link_color{
 	
-	color:#1EB703;
+	color:#278727;
 }
